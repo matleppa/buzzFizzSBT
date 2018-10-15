@@ -1,5 +1,11 @@
 object buzzFizz extends App {
   def buzzFizz(L: Seq[Int]): Seq[String] = {
+    /*
+    * Incoming: array of integers
+    * Ougoing: array of strings. Integers divisible by three are replaced with "Buzz"
+    *          Integers divisible by five are replaced by "Fizz". "BuzzFizz" if both.
+    * */
+
     // initiate the response array of strings
     var vastaus = new Array[String](0)
 
